@@ -14,9 +14,9 @@ class hardware_list:
             hardware_row = self.csv_file.iloc[x]
             name = hardware_row["hardware"]
             des = hardware_row["description"]
-            unit = hardware_row["unit (cm2 or GB)"]
-            CPA = hardware_row["CPA (kgCO2/cm2 or GB)"]
-            number = hardware_row["num"]
+            unit = float(hardware_row["unit (cm2 or GB)"])
+            CPA = float(hardware_row["CPA (kgCO2/cm2 or GB)"])
+            number = float(hardware_row["num"])
 
             value = unit * CPA * number * execution_time / self.lifespan / 1000
             self.total_embodied_co2eq += value
