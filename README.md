@@ -16,16 +16,9 @@ Estimated regression coefficients used for polynomial fit  $\mathbf{y = ax^2 + b
 
 ![alt text](https://github.com/SotaroKaneda/MLCarbon/blob/main/img/ml_para_set_1.jpg)
 
-## Bibtex
+## LLMCarbon estimate for my paper:
+Updated database.csv and hardware.csv to add Llama2-7B and NVIDIA A100 configurations respectively.
 
-```
-@inproceedings{
-faiz2024llmcarbon,
-title={{LLMC}arbon: Modeling the End-to-End Carbon Footprint of Large Language Models},
-author={Ahmad Faiz and Sotaro Kaneda and Ruhan Wang and Rita Chukwunyere Osi and Prateek Sharma and Fan Chen and Lei Jiang},
-booktitle={The Twelfth International Conference on Learning Representations},
-year={2024},
-url={https://openreview.net/forum?id=aIok3ZD9to}
-}
-```
+##Acknowledgement
+Except the updated part the rest of the work is all credit to the LLMCarbon team. They own everything. I dont how to write this officially.
 
